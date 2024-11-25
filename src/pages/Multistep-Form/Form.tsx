@@ -4,6 +4,7 @@ import AccountForm from "./components/AccountForm";
 import { AddressForm } from "./components/AddressForm";
 import UserForm from "./components/UserForm";
 import { INITAL_USER_DATA } from "../../data/UserData";
+import { FormData } from "@/models/form";
 
 export const Form = () => {
   const [data, setData] = useState(INITAL_USER_DATA);
